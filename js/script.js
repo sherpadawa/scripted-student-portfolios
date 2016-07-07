@@ -18,5 +18,9 @@ $(document).ready(function() {
 
 
 // Student 2's JS must fit in lines 13-18
-
+$('#Emwata').mouseenter(function() {
+    audio.play();
+  }).mouseleave(function(){
+    audio.pause();
+  });
 });
